@@ -1,4 +1,4 @@
-# Python Crash Course 3rd Ecition 2023
+# Python Crash Course 3rd Edition 2023
 Eric Matthes
 
 ## Usage
