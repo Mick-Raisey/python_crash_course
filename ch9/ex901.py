@@ -17,3 +17,10 @@ class Restaurant:
 restaurant = Restaurant("cone-on", "ice cream")
 restaurant.describe_restaurant()
 restaurant.open_restaurant()
+
+uncle_wong = Restaurant("uncle wong", "chinese")
+uncle_wong.describe_restaurant()
+
+cafe_aqua = Restaurant("cafe aqua", "cafe food")
+cafe_aqua.describe_restaurant()
+cafe_aqua.open_restaurant()
