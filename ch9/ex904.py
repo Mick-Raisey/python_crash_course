@@ -18,8 +18,22 @@ class Restaurant:
     def open_restaurant(self):
         print(f"{self.restaurant_name} is open for buisiness")
 
+    def set_number_served(self, served):
+        self.number_served = served
+
+    def increment_number_served(self, customers_served):
+        """Increment the amount of customers served"""
+        if customers_served > self.number_served:
+            self.number_served += customers_served
+
 
 restaurant = Restaurant("uncle wong", "chinese")
 print(f"Customers served: {restaurant.number_served}")
 restaurant.number_served = 100
 print(f"Customers served: {restaurant.number_served}")
+
+restaurant.set_number_served(25)
+print(restaurant.number_served)
+print("\n86 Customers served today")
+restaurant.increment_number_served(86)
+print(f"Total customers served: {restaurant.number_served}")
